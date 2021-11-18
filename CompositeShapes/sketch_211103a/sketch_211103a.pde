@@ -45,9 +45,9 @@ void setup() {
 //
 void draw() {
   //Population that changes
-  measleX = random(width);
-  measleY = random(height);
-  measleDiameter = random(width*1/30, width*1/10);
+  measleX = 1/3*(width);
+  measleY = 4/32*(height);
+  measleDiameter = random(width*4/30, width*4/10);
   //
   //Canvas
   rect(rectX, rectY, rectWidth, rectHeight);
